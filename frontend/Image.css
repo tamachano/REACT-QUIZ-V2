@@ -1,0 +1,18 @@
+/* .quiz-image {
+  width: 80%;
+  max-width: 1200px;
+  height: auto;
+  max-height: 300px;
+  margin-bottom: 16px;
+  border-radius: 20px;
+  object-fit: cover;
+} */
+.quiz-image {
+  width: 100%;          /* 画面幅いっぱい */
+  max-width: 800px;     /* 画像の最大幅 */
+  aspect-ratio: 16/9;   /* 好きな比率で統一（←これがポイント） */
+  object-fit: cover;    /* 埋める */
+  border-radius: 20px;
+  margin: 0 auto 16px;
+  display: block;
+}

@@ -1,0 +1,38 @@
+.hint-wrapper {
+  text-align: center;
+  margin-bottom: 10px;
+  margin: 12px 0 20px;
+}
+
+.hint {
+  font-size: 16px;
+  color: #444;
+  margin: 12px 0 8px;
+  padding: 0;
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.hint-btn {
+  background: none;        /* ← 背景なし！！ */
+  border: none;
+  color: #1e88e5;          /* ← 視認性の良い青 */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 8px 0 0;
+  padding: 4px 0;
+}
+
+.hint-btn:hover {
+  opacity: 0.8;
+}
+
+.quiz-image {
+  margin-bottom: 24px; /* ← 写真と問題文の余白 */
+}
+
+.display {
+  margin-bottom: 12px; /* ← 問題文とヒントボタンの距離 */
+}
