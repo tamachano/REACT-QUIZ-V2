@@ -15,8 +15,8 @@ const correctAnswers = {
 };
 
 
-app.post("/api/check", (req, res) => {
-  const { question, userAnswer } = req.body;
+app.post("/api/question", (req, res) => {
+    const { question, userAnswer } = req.body;
 
   if (!question || !userAnswer) {
     return res.status(400).json({

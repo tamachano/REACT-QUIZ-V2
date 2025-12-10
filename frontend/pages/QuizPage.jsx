@@ -40,10 +40,10 @@ useEffect(() => {
   };
 
   try {
-    const res = await fetch("api/question", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
+    const res = await fetch("http://35.173.224.185/api/question", {
+     method: "POST",
+     headers: { "Content-Type": "application/json" },
+     body: JSON.stringify(payload)
     });
 
     const data = await res.json();
